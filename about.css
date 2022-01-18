@@ -1,0 +1,47 @@
+div.about{
+    width: 50%;
+    height: 100px;
+    margin-top: 12%;
+}
+div.middleabout-up{
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    padding-top: 15%;
+}
+div.middleabout-middle{
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    padding-top: 0%;
+  
+}
+p.text1{
+    font-size: 50px;
+    color: black;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+}
+p.text2{
+    font-size: 20px;
+    color: black;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    text-align: center
+}
+div.middleabout-down{
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    padding-top: 2%;
+}
+button.learn{
+    border: solid 2px #f7f5c9;  
+    border-radius: 5px; 
+    background-color: #f7f5c9;
+    width: 100px;
+    height: 50px;
+    font-size: 15px;
+}

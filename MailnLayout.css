@@ -1,0 +1,127 @@
+div.color-cream{
+    background-color: #f7f5c9;
+    height: 100px;
+    padding: auto;
+    
+}
+
+.list ul{
+    display: flex;
+    background-color: white;
+    list-style-type: none;
+}
+
+.list ul li{
+    color: black;
+    /*border-right: black solid 1px;*/
+    text-transform: uppercase;
+    font-weight: normal;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 10px;
+    position: relative;
+    font-family: Avanta Garde;
+    margin-right: auto;
+}
+.list ul li:active{
+    color: white;
+    opacity: 0.5;
+    color: red;
+}
+li.change:hover{
+    background-color: white;
+    opacity: 0.5;
+    color: brown;
+}
+div.Layout{
+    display: inline-block
+}
+div.middle{
+    justify-content: center;
+    display: flex;
+    margin: auto;
+}
+div.middle-introduce{
+    display: flex;
+    background-color:  white;
+    border: #f7f5c9 solid;
+    width: auto;
+}
+p.introducing{
+    font-size: 20px;
+}
+div.padding-g{
+padding: 5%;
+}
+h1.mainlayoutMyname{
+    font-family: MV Boli;
+    color: black;
+    text-transform: uppercase;    
+}
+img.girl{
+width: 100px;   
+}
+div.introducing-me-background{
+    background-color: #a2b189;
+    height: 800px; 
+
+}
+div.under-introducing-me{
+    background-color: #b9c4a5;
+    height: 100px;
+}
+div.buttonTot{
+    display: inline-block;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+ 
+}
+button{
+border: solid 2px #f7f5c9;  
+border-radius: 5px; 
+background-color: #f7f5c9;
+width: 100px;
+margin-left: 10px;
+margin-right: 10px;
+font-size: 15px;
+}
+div.contact-Home{
+    display: inline-block;
+    justify-content: right;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+} 
+.fa:hover {
+    opacity: 0.5;
+}
+.fa-facebook {
+    color: black;
+}
+.fa-github {
+    color: black;
+}
+.fa-instagram {
+    color: black;
+}
+.fa-telegram {
+    color: black;
+}
+.fa-linkedin {
+    color: black;
+}
+.fa-twitter {
+    color: black;
+}
+a.underline{
+    text-decoration: none;
+    color: black;
+}
+
+
+

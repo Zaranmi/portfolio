@@ -1,0 +1,42 @@
+div.Main-div{
+    background-color: #a2b189;
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    height: 600px;
+    border-radius: 10px;
+    padding-top: 5%;    
+}
+div.middle-div{
+    margin: auto;
+    margin-top: 25px;
+    width: 100%;
+    height: 300px;
+    display: inline-block;
+    justify-content: center;
+    display: flex;
+    margin: auto; 
+    border-radius: 10px; 
+}
+div.inter-div{
+    background-color: white;
+    width: 30%;
+    height: 150px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: -5%;  
+    border-radius: 10px;
+}
+img.inter-image{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+img.inter-image:hover{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+p.text{
+      font-size: 12.5px;
+}
