@@ -5,10 +5,16 @@ div.color-cream{
     
 }
 
+
 .list ul{
     display: flex;
+    justify-content: center;
+    align-items: center;   
     background-color: white;
     list-style-type: none;
+}
+ul{
+    padding: 0 0 0 0;
 }
 
 .list ul li{
@@ -16,13 +22,14 @@ div.color-cream{
     /*border-right: black solid 1px;*/
     text-transform: uppercase;
     font-weight: normal;
-    padding-left: 10px;
     padding-right: 10px;
+    padding-left: 10px;
     height: 10px;
-    position: relative;
+    /* position in ja bod! */
     font-family: Avanta Garde;
-    margin-right: auto;
+    
 }
+
 .list ul li:active{
     color: white;
     opacity: 0.5;
@@ -34,12 +41,14 @@ li.change:hover{
     color: brown;
 }
 div.Layout{
-    display: inline-block
+    display: inline-block;
+  
 }
 div.middle{
     justify-content: center;
-    display: flex;
-    margin: auto;
+    align-items: center;
+    display: flex;   
+    
 }
 div.middle-introduce{
     display: flex;
@@ -49,9 +58,16 @@ div.middle-introduce{
 }
 p.introducing{
     font-size: 20px;
+    padding: 5%;
+    text-align: justify;
 }
+
 div.padding-g{
-padding: 5%;
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 10%;
+    margin-right: 10%;  
 }
 h1.mainlayoutMyname{
     font-family: MV Boli;
@@ -59,22 +75,28 @@ h1.mainlayoutMyname{
     text-transform: uppercase;    
 }
 img.girl{
-width: 100px;   
+    width: 250px;   
+    
 }
 div.introducing-me-background{
     background-color: #a2b189;
-    height: 800px; 
-
+    height: 100vh; 
 }
 div.under-introducing-me{
     background-color: #b9c4a5;
     height: 100px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
 }
 div.buttonTot{
     display: inline-block;
     justify-content: center;
     display: flex;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;  
+    
  
 }
 button{
@@ -82,26 +104,34 @@ border: solid 2px #f7f5c9;
 border-radius: 5px; 
 background-color: #f7f5c9;
 width: 100px;
+height: 48px;
 margin-left: 10px;
 margin-right: 10px;
 font-size: 15px;
 }
 div.contact-Home{
     display: inline-block;
-    justify-content: right;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
 }
 .fa {
     padding: 20px;
     font-size: 30px;
     text-align: center;
     text-decoration: none;
-    margin: 5px 2px;
+    
+    
+    
 } 
 .fa:hover {
     opacity: 0.5;
 }
 .fa-facebook {
     color: black;
+    
 }
 .fa-github {
     color: black;

@@ -1,47 +1,52 @@
 div.about{
-    width: 50%;
-    height: 100px;
-    margin-top: 12%;
+    width: 50%;;
 }
 div.middleabout-up{
-    justify-content: center;
-    display: flex;
-    margin: auto;
-    padding-top: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0%;
+    text-align: center;
+    height: fit-content;
 }
 div.middleabout-middle{
     justify-content: center;
-    display: flex;
-    margin: auto;
-    padding-top: 0%;
-  
+    margin-left: auto;
+    margin-right: auto; 
 }
 p.text1{
     font-size: 50px;
+    font-weight: bold;
     color: black;
-    justify-content: center;
-    display: flex;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    padding-top: 20%;
+       
 }
 p.text2{
-    font-size: 20px;
+    font-size: 23px;
+    text-transform: capitalize;
     color: black;
-    justify-content: center;
-    display: flex;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center
 }
 div.middleabout-down{
     justify-content: center;
     display: flex;
-    margin: auto;
-    padding-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 button.learn{
     border: solid 2px #f7f5c9;  
     border-radius: 5px; 
     background-color: #f7f5c9;
     width: 100px;
-    height: 50px;
+    height: 48px;
+    margin-left: 10px;
+    margin-right: 10px;
     font-size: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
 }
