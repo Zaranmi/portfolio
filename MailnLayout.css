@@ -1,5 +1,5 @@
 div.color-cream{
-    background-color: #f7f5c9;
+    background-color: #80FFDB;
     height: 100px;
     padding: auto;
     
@@ -33,12 +33,10 @@ ul{
 .list ul li:active{
     color: white;
     opacity: 0.5;
-    color: red;
 }
 li.change:hover{
     background-color: white;
     opacity: 0.5;
-    color: brown;
 }
 div.Layout{
     display: inline-block;
@@ -53,7 +51,7 @@ div.middle{
 div.middle-introduce{
     display: flex;
     background-color:  white;
-    border: #f7f5c9 solid;
+    border: #6930C3 solid;
     width: auto;
 }
 p.introducing{
@@ -79,11 +77,11 @@ img.girl{
     
 }
 div.introducing-me-background{
-    background-color: #a2b189;
+    background-color: #4EA8DE;
     height: 100vh; 
 }
 div.under-introducing-me{
-    background-color: #b9c4a5;
+    background-color: #023e8a;
     height: 100px;
     display: flex;
     justify-content: center;
