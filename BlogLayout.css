@@ -4,12 +4,9 @@ div.Main-div{
     justify-items: center;
     align-items: center;
     flex-wrap: wrap;
-    margin-left: 10%;/*in bas avaz she*/
+    margin-left: 10%;
     margin-right: auto;    
 }
-
-/* New CSS */
-@import url('https://fonts.googleapis.com/css?family=Merriweather|Open+Sans');
 
 .container{
   display: flex;
