@@ -1,5 +1,5 @@
 div.color-cream{
-    background-color: #80FFDB;
+    background-color: #F1C0E8;
     height: 100px;
     padding: auto;
     
@@ -51,7 +51,7 @@ div.middle{
 div.middle-introduce{
     display: flex;
     background-color:  white;
-    border: #6930C3 solid;
+    border-radius: 5px;
     width: auto;
 }
 p.introducing{
@@ -77,11 +77,11 @@ img.girl{
     
 }
 div.introducing-me-background{
-    background-color: #4EA8DE;
+    background-color: #A3C4F3;
     height: 100vh; 
 }
 div.under-introducing-me{
-    background-color: #023e8a;
+    background-color: #98F5E1;
     height: 100px;
     display: flex;
     justify-content: center;
@@ -98,9 +98,9 @@ div.buttonTot{
  
 }
 button{
-border: solid 2px #f7f5c9;  
+border: solid 2px #FFCFD2;  
 border-radius: 5px; 
-background-color: #f7f5c9;
+background-color: #FFCFD2;
 width: 100px;
 height: 48px;
 margin-left: 10px;
