@@ -4,8 +4,6 @@ div.color-cream{
     padding: auto;
     
 }
-
-
 .list ul{
     display: flex;
     justify-content: center;
@@ -29,7 +27,6 @@ ul{
     font-family: Avanta Garde;
     
 }
-
 .list ul li:active{
     color: white;
     opacity: 0.5;
@@ -39,14 +36,12 @@ li.change:hover{
     opacity: 0.5;
 }
 div.Layout{
-    display: inline-block;
-  
+    display: inline-block;  
 }
 div.middle{
     justify-content: center;
     align-items: center;
-    display: flex;   
-    
+    display: flex;      
 }
 div.middle-introduce{
     display: flex;
@@ -59,7 +54,6 @@ p.introducing{
     padding: 5%;
     text-align: justify;
 }
-
 div.padding-g{
     padding-top: 30px;
     padding-left: 10px;
@@ -68,9 +62,11 @@ div.padding-g{
     margin-right: 10%;  
 }
 h1.mainlayoutMyname{
-    font-family: MV Boli;
+    font-family: Serif;
     color: black;
-    text-transform: uppercase;    
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 100;    
 }
 img.girl{
     width: 250px;   
@@ -93,9 +89,7 @@ div.buttonTot{
     justify-content: center;
     display: flex;
     margin-left: auto;
-    margin-right: auto;  
-    
- 
+    margin-right: auto;   
 }
 button{
 border: solid 2px #FFCFD2;  
@@ -112,17 +106,13 @@ div.contact-Home{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
-    
+    justify-content: center;    
 }
 .fa {
     padding: 20px;
     font-size: 30px;
     text-align: center;
-    text-decoration: none;
-    
-    
-    
+    text-decoration: none;    
 } 
 .fa:hover {
     opacity: 0.5;
